@@ -1,13 +1,13 @@
 # Home Assistant
 
 # Hardware 
-- Raspberry Pi3B+
+- Raspberry Pi 3B+
 - External HDD
 - ESP8266-base chipset
 - FTDI _Serial-to-USB_ (required to flash ESP8266)
 
 # Install Raspbian on Pi
-To preserve the SD card, use an external HDD.
+To preserve the SD card, use an external HDD.  
 Need to have a hard drive with a dedicated power supply or that spins up disks before the Pi boot sequence (see https://www.raspberrypi.org/blog/pi-3-booting-part-i-usb-mass-storage-boot/).
 
 ## Prepare HDD Drive
@@ -27,7 +27,8 @@ network={
 https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
 
 ### File `ssh`
-Create an empty file `ssh` in the `/boot` directory.
+Create an empty file `ssh` in the `/boot` directory.  
+https://www.raspberrypi.org/documentation/remote-access/ssh/README.md#3-enable-ssh-on-a-headless-raspberry-pi-add-file-to-sd-card-on-another-machine
 
 ## Boot the Pi
 
@@ -60,6 +61,6 @@ Hass.io should be present on the left menu.
 
 # Go further
 
-- [Home Assistant](ha/README)
-- [hass.io](hass.io/README)
-- [NodeRED](nodered/README)
+- [Home Assistant](ha/README.md)
+- [hass.io](hass.io/README.md)
+- [Node-RED](nodered/README.md)
