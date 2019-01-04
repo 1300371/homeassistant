@@ -1,4 +1,4 @@
-# Home Assistant
+# Home Assistant Guidelines
 
 # Hardware 
 - Raspberry Pi 3B+
@@ -64,3 +64,4 @@ Hass.io should be present on the left menu.
 - [Home Assistant](ha/README.md)
 - [hass.io](hass.io/README.md)
 - [Node-RED](nodered/README.md)
+- [Sonoff Basic](sonoff_basic/README.md)
