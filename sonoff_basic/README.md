@@ -5,6 +5,7 @@ Need to be flashed with custom firmware to prevent the switch to connect the Ite
 ## Resources
 - https://github.com/arendst/Sonoff-Tasmota
 - https://www.domo-blog.fr/comment-flasher-le-firmware-du-sonoff-basic-pour-lutiliser-sur-jeedom/
+- 
 
 ## Tasmota
 https://github.com/arendst/Sonoff-Tasmota
@@ -21,4 +22,15 @@ https://github.com/arendst/Sonoff-Tasmota/wiki/Esptool#esptool-executable-window
 _Source [Domoblog](https://www.domo-blog.fr/comment-flasher-le-firmware-du-sonoff-basic-pour-lutiliser-sur-jeedom/)_
 
 ### Flash firmware
-> esptool -cp COM5 -cb 115200 -ce -v
+```
+esptool -cp COM5 -cb 115200 -ce -v
+```
+
+### Setting up
+
+Create a WiFi access point: 
+```
+SSID: indebuurt1
+Password: VnsqrtnrsddbrN
+`````
+
