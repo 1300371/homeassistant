@@ -7,3 +7,5 @@ https://www.home-assistant.io/getting-started/
 
 ## Components :triumph:
 https://www.home-assistant.io/components/
+
+- [floorplan](./floorplan.md)
