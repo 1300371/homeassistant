@@ -16,7 +16,7 @@ https://github.com/arendst/Sonoff-Tasmota/releases
 https://github.com/arendst/Sonoff-Tasmota/wiki/Esptool#esptool-executable-windows--linux
 
 ### Scheme
-<img src="https://www.domo-blog.fr/wp-content/uploads/2018/09/sonoff-cablage-schema-commet-flash-jeedom-domotique-domoblog-domolab.jpg" alt="scheme" width="600px"/> )
+<img src="https://www.domo-blog.fr/wp-content/uploads/2018/09/sonoff-cablage-schema-commet-flash-jeedom-domotique-domoblog-domolab.jpg" alt="scheme" width="600px"/>
 
 _Source [Domoblog](https://www.domo-blog.fr/comment-flasher-le-firmware-du-sonoff-basic-pour-lutiliser-sur-jeedom/)_
 
