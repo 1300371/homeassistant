@@ -3,7 +3,7 @@
 # Hardware 
 - Raspberry Pi 3B+
 - External HDD
-- ESP8266-base chipset
+- ESP82XX-base chipset
 - FTDI _Serial-to-USB_ (required to flash ESP8266)
 
 # Install Raspbian on Pi
