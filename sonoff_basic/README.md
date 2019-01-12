@@ -4,14 +4,15 @@ Need to be flashed with custom firmware to prevent the switch to connect the Ite
 
 ## Resources
 - https://github.com/arendst/Sonoff-Tasmota
-- https://www.domo-blog.fr/comment-flasher-le-firmware-du-sonoff-basic-pour-lutiliser-sur-jeedom/
+- https://github.com/arendst/Sonoff-Tasmota/wiki/Sonoff-Basic#new-board-layout
 
 
 ## Tasmota
-https://github.com/arendst/Sonoff-Tasmota
+https://github.com/arendst/Sonoff-Tasmota  
 
 ### Tasmota firmware
 https://github.com/arendst/Sonoff-Tasmota/releases
+_Actual version: 6.4.1.8_
 
 ## ESPTool 
 https://github.com/arendst/Sonoff-Tasmota/wiki/Esptool#esptool-executable-windows--linux
@@ -21,10 +22,11 @@ https://github.com/arendst/Sonoff-Tasmota/wiki/Esptool#esptool-executable-window
 
 _Source [Domoblog](https://www.domo-blog.fr/comment-flasher-le-firmware-du-sonoff-basic-pour-lutiliser-sur-jeedom/)_
 
-### Physical switch
-https://github.com/arendst/Sonoff-Tasmota/wiki/Sonoff-Basic#new-board-layout
+### Wall switch
+https://github.com/arendst/Sonoff-Tasmota/wiki/Sonoff-Basic#new-board-layout  
 A physical switch can be added to the Sonoff devices.  
-Can be achieved connecting GPIO2 labeled `IO2` and `GND` (requires additional soldering - _can be tricky_).
+Can be achieved connecting GPIO3 labeled `RX` and `GND`.  
+In [Tasmota Web interface](../tasmota/README.md), setup the module and bind the `GPIO3` to `9 Switch1` (_`SwitchMode2 1`_).
 
 ### Firmware mode
 https://github.com/arendst/Sonoff-Tasmota/wiki/Esptool#put-device-in-firmware-upload-mode

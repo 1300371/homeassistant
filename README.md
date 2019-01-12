@@ -61,7 +61,8 @@ Hass.io should be present on the left menu.
 
 # Go further
 
-- [Home Assistant](ha/README.md)
 - [hass.io](hass.io/README.md)
+- [Home Assistant](ha/README.md)
 - [Node-RED](nodered/README.md)
 - [Sonoff Basic](sonoff_basic/README.md)
+- [Tasmota](tasmota/README.md)
