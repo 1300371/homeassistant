@@ -13,7 +13,7 @@ carlosedp/prometheus
 
 ## node_exporter
 Monitoring machine (_Raspberry_) metrics.  
-https://github.com/prometheus/node_exporter  
+https://github.com/prometheus/node_exporter#using-docker  
 
 `ARM image`
 ```
