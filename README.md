@@ -63,7 +63,7 @@ Hass.io should be present on the left menu.
 
 - [hass.io](hass.io/README.md) the Docker platform for HA
 - [Home Assistant](ha/README.md) the open source automation system
-- [Monitoring](monitoring/README.md) a complete stack to monitor Raspberry and Docker containers
+- [Monitoring](monitoring/README.md) Raspberry and Docker containers
 - [Node-RED](nodered/README.md) flow programming for IoT
 - [Sonoff Basic](sonoff_basic/README.md) Hardware dig-in
 - [Tasmota](tasmota/README.md) the open source ESP8266 firmware
