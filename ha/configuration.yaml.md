@@ -26,6 +26,18 @@ panel_iframe:
     url: http://localhost:3218
 ````
 
+## Use secrets
+<small>https://www.home-assistant.io/docs/configuration/secrets/</small>  
+
+`configuration.yaml`
+```yaml
+api_password: !secret my_api_password
+```
+`secrets.yaml`
+````yaml
+my_api_password: abcd6547
+````
+
 ## Activate Lovelace yaml mode
 ````yaml
 lovelace:

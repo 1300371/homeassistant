@@ -113,8 +113,8 @@ switch:
 
   - platform: mqtt
     name: "Sonoff "
-    state_topic: "stat/sonoff/POWER"
-    value_template: "{{ value_json.POWER }}"
+    state_topic: "stat/sonoff/RESULT"
+    value_template: "{{ value_json['POWER'] }}"
     command_topic: "cmnd/sonoff/POWER"
     payload_on: "ON"
     payload_off: "OFF"
