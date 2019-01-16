@@ -1,4 +1,5 @@
 # Device Tracking
+https://www.home-assistant.io/components/device_tracker/
 
 ## Bluetooth
 https://www.home-assistant.io/components/device_tracker.bluetooth_tracker/

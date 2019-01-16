@@ -1,6 +1,7 @@
 # File `configuration.yaml`
 
 ## Geoposition
+Set position on earth if [sun](https://www.home-assistant.io/components/sun/) component is used.
 ````yaml
 homeassistant:
   # ...
@@ -14,7 +15,6 @@ homeassistant:
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: 
 ````
-Set your position on earth if _sun_ component is used.
 
 ## Custom Panel
 To add item to the left menu.

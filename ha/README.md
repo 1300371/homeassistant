@@ -3,9 +3,18 @@ https://www.home-assistant.io/getting-started/
 
 ## Configuration
 - [`configuration.yaml`](configuration.yaml.md): general configuration
-- `known_devices.yaml`: devices uses by device_tracking ([Device Tracker](https://www.home-assistant.io/components/device_tracker/))
+- `known_devices.yaml`: list of devices uses by [device_tracking](device_tracking.md)
 
-## Components :triumph:
+## Components <small>:triumph:</small>
 https://www.home-assistant.io/components/
 
-- [floorplan](./floorplan.md)
+- Sun
+- Google Assistant
+- Alexa
+- Freebox
+- IFTT
+- Linky
+- MQTT Switch
+- Xiaomi Mi Robot Vacuum
+- [floorplan](floorplan.md)
+- ...
