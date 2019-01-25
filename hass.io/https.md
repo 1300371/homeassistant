@@ -1,4 +1,4 @@
-# https
+# HTTPS Documentation
 
 ## DuckDNS Addon
 <small>https://www.home-assistant.io/addons/duckdns/</small>  
