@@ -86,7 +86,7 @@ location /proxy/grafana/ {
 
 ### Grafana
 Update the Grafana hass.io plugins.
-```
+```yaml
 {
   "log_level": "info",
   "ssl": true,
