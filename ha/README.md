@@ -15,6 +15,6 @@ https://www.home-assistant.io/components/
 - IFTT
 - Linky
 - MQTT Switch
-- Xiaomi Mi Robot Vacuum
+- [Xiaomi Roborock Vacuum](roborock.md)
 - [floorplan](floorplan.md)
 - ...
