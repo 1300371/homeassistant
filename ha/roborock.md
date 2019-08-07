@@ -22,7 +22,7 @@
 ````yaml
 vacuum:
   - platform: xiaomi_miio
-    host: 192.168.0.41
+    host: 192.168.0.ip
     token: !secret roborock_token
 ````
 Now, the vacuum can be requested by HA.
@@ -54,8 +54,9 @@ Have to get somehow the map coordinates : https://community.home-assistant.io/t/
   "params": [[x1,y1,x2,y2,c], ...]
 }
 ````
-- `[x1,y1]` the bottom right corner
-- `[x2,y2]` the top left corner
+- `[x1,y1]` the bottom left corner
+- `[x2,y2]` the top right corner
+- `c` the number of pass
 - can add multiple areas with the array
 
 ... and all of that can be automated of course: thanks to [NodeRED](../nodered/README.md) !

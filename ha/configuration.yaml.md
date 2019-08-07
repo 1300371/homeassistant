@@ -49,3 +49,8 @@ lovelace:
 recorder:
   purge_keep_days: 90
 ````
+
+## Switch theme on sun events
+Configure themes : https://www.home-assistant.io/components/frontend/  
+
+Then automation can be done using _service_ `frontend.set_theme` via [NodeRED](../nodered/README.md)
