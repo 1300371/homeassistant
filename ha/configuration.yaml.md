@@ -54,3 +54,12 @@ recorder:
 Configure themes : https://www.home-assistant.io/components/frontend/  
 
 Then automation can be done using _service_ `frontend.set_theme` via [NodeRED](../nodered/README.md)
+
+## Packages
+Splits configuration file with [packages](https://www.home-assistant.io/docs/configuration/packages/).
+````yaml
+homeassistant:
+  # Loads all packages/*.yaml
+  packages: !include_dir_named packages
+````
+_Files must have `yaml` extension._
