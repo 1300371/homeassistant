@@ -67,3 +67,8 @@ Hass.io should be present on the left menu.
 - [Node-RED](nodered/README.md) flow programming for IoT
 - [Sonoff Basic](sonoff_basic/README.md) Hardware dig-in
 - [Tasmota](tasmota/README.md) the open source ESP8266 firmware
+
+# TODO
+
+- InfluxDB integration
+- Lovelace view includes
