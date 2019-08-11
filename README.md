@@ -47,13 +47,13 @@ With the great install script:
 > curl -fsSL https://get.docker.com | sudo bash
 
 # Install hass.io
-https://github.com/home-assistant/hassio-build/tree/master/install#install-hassio  
+https://github.com/home-assistant/hassio-installer 
 
 Before install, need to install required dependencies.
 > sudo apt-get install jq avahi-daemon dbus apparmor-utils network-manager
 
 Install hass.io providing the Raspberry Pi 3 platform : `raspberrypi3`
-> curl -sL https://raw.githubusercontent.com/home-assistant/hassio-build/master/install/hassio_install | sudo bash -s -- -m raspberrypi3
+> curl -sL https://raw.githubusercontent.com/home-assistant/hassio-installer/master/hassio_install.sh | sudo bash -s -- -m raspberrypi3
 
 # Access HA
 HA should be started and reachable at `http://<ip_of_raspberry>:8123`  
