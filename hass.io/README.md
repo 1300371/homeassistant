@@ -9,6 +9,9 @@ https://www.home-assistant.io/
 - Mosquitto broker: https://github.com/hassio-addons/addon-mqtt
 - Node-RED: https://github.com/hassio-addons/addon-node-red
 - Grafana: https://github.com/hassio-addons/addon-grafana
+- InfluxDB: https://github.com/hassio-addons/addon-influxdb
+- DuckDNS: https://www.home-assistant.io/addons/duckdns
+- NGINX: https://www.home-assistant.io/addons/nginx_proxy
 
 # Enable HTTPS
 

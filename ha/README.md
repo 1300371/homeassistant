@@ -13,7 +13,7 @@ https://www.home-assistant.io/components/
 - Alexa
 - Freebox
 - IFTT
-- Linky
+- [Linky](linky.md)
 - MQTT Switch
 - [Xiaomi Roborock Vacuum](roborock.md)
 - [floorplan](floorplan.md)
